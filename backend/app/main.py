@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from routers import chat, health
 from services.llm_google import router as models_router
+from services.chatbot import router as chatbot_router
 from dotenv import load_dotenv
 import os
 
