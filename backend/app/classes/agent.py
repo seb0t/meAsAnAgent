@@ -67,7 +67,7 @@ class agentGemini:
 
         if response.tools_responses:
             # Estrarre la risposta dalla funzione chiamata
-            tool_response = response.candidates[0].
+            tool_response = response.candidates[0]
             return tool_response.output
         return {"answer": response.text}
     
